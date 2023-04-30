@@ -1,0 +1,25 @@
+﻿<Window x:Class="Semester_Project.All"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Semester_Project"
+        mc:Ignorable="d"
+        Title="All" Height="932" Width="430" Background="LightSteelBlue">
+    <Border Background="SteelBlue" CornerRadius="20" Margin="20">
+        <StackPanel Margin="0,0,0,10">
+            <Separator Margin="0,60,0,2" Visibility="Hidden"></Separator>
+            <StackPanel Orientation="Vertical">
+                <Image Source="https://i.pinimg.com/736x/f5/05/da/f505da7499d8103459d905a2f33f418e.jpg" Height="121" Width="243"/>
+                <Label Content="Home Library" Foreground="White" FontSize=" 25" Width="170" FontFamily="Book Antiqua"/>
+            </StackPanel>
+            <Separator Visibility="Hidden" Margin="0,26,0,2"></Separator>
+            <Label Content="All" Foreground="White" FontSize="25" HorizontalAlignment="Center"/>
+            <DataGrid x:Name="AllBooks" Height="293" Background="White" HorizontalAlignment="Stretch" Margin="15,-2,15,0" />
+            <Separator Visibility="Hidden" Margin="0,26,0,2"></Separator>
+            <Button x:Name="functions" Content="Add/Update/Delete"  Margin="60,10" Foreground="Black" FontSize="18" Click="BookFunctions"
+                    Height="44" Width="211" Background="LightPink"  />
+
+        </StackPanel>
+    </Border>
+</Window>

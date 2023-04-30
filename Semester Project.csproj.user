@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup />
+  <ItemGroup>
+    <Compile Update="All.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Bookcase.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="BookDevelopment.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Children.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Living.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="LogIn.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="MainPage.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="SignUp.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Users.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Page Update="All.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Bookcase.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="BookDevelopment.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Children.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Living.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="LogIn.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="MainPage.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="SignUp.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Users.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+  </ItemGroup>
+</Project>
